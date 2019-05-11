@@ -1,0 +1,21 @@
+{
+  "name": "ds-calls",
+  "src": {
+    "smt_prelude":   "src/prelude.smt2.md",
+    "specification": "readme.md",
+    "rules": []
+  },
+  "implementations": {
+    "Delegator": {
+      "name": "Delegator",
+      "solc_output": "out/harness.sol.json"
+    },
+    "Trivial": {
+      "name": "Trivial",
+      "solc_output": "out/harness.sol.json"
+    }
+  },
+  "dapp_root": "."
+}
+
+
